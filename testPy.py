@@ -19,7 +19,7 @@ card_frame = ttk.Frame(content_frame, relief="solid", padding=10)
 card_frame.pack(fill="both", padx=10, pady=10)
 
 # Imagen de perfil (simulada con un label, asegúrate de tener una imagen compatible)
-print(origen+"\Imagenes\TC.png)
+print(origen+"\Imagenes\TC.png")
 profile_img = tk.PhotoImage(file=origen+"\Imagenes\TC.png")  # Asegúrate de tener una imagen compatible
 profile_label = ttk.Label(card_frame, image=profile_img)
 profile_label.image = profile_img  # Guardar referencia para evitar que se elimine
